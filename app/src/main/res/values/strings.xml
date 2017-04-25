@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Crash</string>
+    <string name="btn_crash">Crash</string>
+    <string name="SQLiteFullException_hint">手机存储不足，无法写入数据</string>
+</resources>
