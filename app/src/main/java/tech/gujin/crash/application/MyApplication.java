@@ -8,7 +8,6 @@ import com.tencent.bugly.crashreport.CrashReport;
 
 import tech.gujin.crash.handler.CrashHandler;
 
-
 public class MyApplication extends Application {
 
     @SuppressLint("StaticFieldLeak")
@@ -21,6 +20,6 @@ public class MyApplication extends Application {
         // init CrashHandler
         CrashHandler.getInstance().init();
         // init Bugly
-        CrashReport.initCrashReport(this, "your bugly App ID", false);
+        CrashReport.initCrashReport(this, "your Bugly App ID", false);
     }
 }
